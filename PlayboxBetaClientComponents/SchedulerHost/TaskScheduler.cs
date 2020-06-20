@@ -56,7 +56,7 @@ namespace SchedulerHost
                     taskRunning = true;
                 }
             }            
-            Debug.WriteLine("............................................................................................Datetime : " + DateTime.Now + " | IsTaskRunning:" + taskRunning.ToString() + " | Schedule time:" + LocalDataStore.SchedulerStartTime.ToString());
+            Debug.WriteLine("............................................................................................Datetime : " + DateTime.Now + " | IsTaskRunning:" + taskRunning.ToString() + " | Schedule time:" + LocalDataStore.SchedulerStartTime.ToString() + " | Schedule End time:" + LocalDataStore.SchedulerEndTime.ToString());
             return taskRunning;
         }
 
